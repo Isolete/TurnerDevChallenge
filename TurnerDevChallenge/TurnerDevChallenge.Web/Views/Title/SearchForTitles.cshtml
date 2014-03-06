@@ -1,0 +1,49 @@
+﻿@model IEnumerable<TurnerDevChallenge.Data.Models.Title>
+
+@{
+    ViewBag.Title = "SearchForTitles";
+}
+
+<h2>Search For Titles</h2>
+
+@using (Html.BeginForm("SearchForTitles", "Title", FormMethod.Get))
+{
+    <p>
+
+        Movie Title: @Html.TextBox("titleName") 
+        <input type="submit" value="Search for Title" />
+    </p>
+}
+
+<table>
+    <tr style=" background-color: #E0E0D1">
+        <th>
+            <label for="titleName" id="titleNameLabel">Title</label>
+           
+        </th>
+        <th>
+            <label for="releaseYear" id="ReleaseYearLable">Year</label>
+
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+{
+    <tr style=" background-color: #FFF;">
+        <td>
+            @Html.DisplayFor(modelItem => item.TitleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseYear)
+        </td>
+
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.TitleId}, new {@style="color:Blue;"}) 
+        </td>
+    </tr>
+}
+
+</table>
+

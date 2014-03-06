@@ -1,0 +1,14 @@
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\TurnerDevChallenge.Business.dll.config
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\TurnerDevChallenge.Business.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\TurnerDevChallenge.Business.pdb
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\EntityFramework.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\EntityFramework.SqlServer.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\Rhino.Mocks.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\TurnerDevChallenge.Data.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\TurnerDevChallenge.Data.pdb
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\EntityFramework.xml
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\EntityFramework.SqlServer.xml
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\bin\Release\Rhino.Mocks.xml
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\obj\Release\TurnerDevChallenge.Business.csprojResolveAssemblyReference.cache
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\obj\Release\TurnerDevChallenge.Business.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business\obj\Release\TurnerDevChallenge.Business.pdb

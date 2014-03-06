@@ -1,0 +1,49 @@
+﻿@model TurnerDevChallenge.Data.ViewModels.TitleViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Movie Details</h2>
+
+
+<fieldset>
+    <legend>Title</legend>
+    <div class="detailsColumn" style="margin-top: 10px;">
+        <div style="float: left; width: 50%; ">
+            <div class="display-label">
+               <label> @Html.DisplayNameFor(model => model.TitleName)</label>
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.TitleName)
+            </div>
+            <p></p>
+            <div class="display-label">
+               <label> @Html.DisplayNameFor(model => model.ReleaseYear)</label>
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.ReleaseYear)
+            </div>
+
+        </div>
+        <div style="float: left; width: 50%;">
+            <div class="display-label">
+               <label> @Html.DisplayNameFor(model => model.Awards)</label>
+            </div>
+            <div class="display-field">
+                @foreach (var a in Model.Awards)
+                {
+                    <div class="category">
+                        <label> @a.Award</label>@a.AwardYear
+                        <p></p>
+                    </div>
+
+                }
+            </div>
+        </div>
+
+</fieldset>
+
+<p>
+    @Html.ActionLink("Back to List", "SearchForTitles")
+</p>

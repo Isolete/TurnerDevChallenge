@@ -1,0 +1,5 @@
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business.Tests\bin\Debug\TurnerDevChallenge.Business.Tests.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business.Tests\bin\Debug\TurnerDevChallenge.Business.Tests.pdb
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business.Tests\obj\Debug\TurnerDevChallenge.Business.Tests.csprojResolveAssemblyReference.cache
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business.Tests\obj\Debug\TurnerDevChallenge.Business.Tests.dll
+C:\TurnerDevChallenge\TurnerDevChallenge\TurnerDevChallenge.Business.Tests\obj\Debug\TurnerDevChallenge.Business.Tests.pdb
